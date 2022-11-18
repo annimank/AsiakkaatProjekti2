@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+#linkki {
+	text-decoration: none;
+	text-align: right;
+	color: white;
+	}
+
+.oikealle {
+	text-align: right;
+}
+
+#listaus {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#listaus td, #listaus th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#listaus tr:nth-child(even){background-color: #f2f2f2;}
+
+#listaus tr:hover {background-color: #ddd;}
+
+#listaus th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  }
+  
